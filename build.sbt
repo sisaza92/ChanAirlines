@@ -20,6 +20,8 @@ scalaVersion := "2.11.11"
 resolvers += Classpaths.typesafeReleases
 
 libraryDependencies ++= Seq(
+  "org.scalatra" %% "scalatra-json" % ScalatraVersion,
+  "org.json4s"   %% "json4s-jackson" % "3.3.0",
   "org.scalactic" %% "scalactic" % "3.0.1",
   "org.scalatest" %% "scalatest" % "3.0.1" % "test",
   "org.scalatra" %% "scalatra" % ScalatraVersion,

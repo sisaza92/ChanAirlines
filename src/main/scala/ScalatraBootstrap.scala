@@ -1,4 +1,4 @@
-import com.chanairlines.flights._
+import com.chanairlines.controller._
 import org.scalatra._
 import javax.servlet.ServletContext
 

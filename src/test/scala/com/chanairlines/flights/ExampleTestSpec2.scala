@@ -1,4 +1,4 @@
-package com.chanairlines.flights
+package com.chanairlines.controller
 
 import org.scalatra.test.specs2._
 
