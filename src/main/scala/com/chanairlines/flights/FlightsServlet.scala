@@ -12,5 +12,11 @@ class FlightsServlet extends ChanFlightsStack {
       </body>
     </html>
   }
+  
+    post("/search") {
+      val jsonString = request.body
+      // deserialize the JSON ....
+      response.addHeader("ACK", "JSON OK")
+  }
 
 }
